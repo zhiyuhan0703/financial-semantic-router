@@ -38,6 +38,8 @@ python -m scripts.run_dev
 python -m scripts.run_experiment --route pure_rule --split test --allow-test --output reports/pure_rule-public-v1.0.json
 ```
 
+All commands above run offline and require no API key.
+
 The default dataset is `frozen/public-v1.0/freeze-manifest.json`: five public A-share company identities plus 8 DEV and 24 TEST routing cases newly authored for this repository.
 
 ## Optional model routes

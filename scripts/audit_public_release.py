@@ -13,6 +13,7 @@ from typing import Sequence
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_ENV = ".env.example"
 EXPECTED_EMAIL = "zhiyuhan0703@users.noreply.github.com"
+EXPECTED_PUBLIC_ROOT = "2d00713a26816720597cb3a6bcb174ef881c26e4"
 FORBIDDEN_MARKERS = (
     "D:" + chr(92) + "个人" + "文件",
     "D:" + "/" + "个人" + "文件",
@@ -20,6 +21,7 @@ FORBIDDEN_MARKERS = (
     "项目" + "经验库",
     "Truth" + "Net",
     "mail." + "ustc.edu.cn",
+    "seminar" + " routing experiment",
 )
 SECRET_PATTERNS = (
     (
@@ -113,8 +115,13 @@ def audit(final: bool) -> dict[str, object]:
         if email != EXPECTED_EMAIL
     )
     reachable_commits = int(git_output("rev-list", "--all", "--count").strip())
-    if final and reachable_commits != 1:
-        findings.append(f"reachable_commits:{reachable_commits}")
+    root_commits = [
+        commit
+        for commit in git_output("rev-list", "--max-parents=0", "--all").splitlines()
+        if commit
+    ]
+    if final and root_commits != [EXPECTED_PUBLIC_ROOT]:
+        findings.append("public_roots:" + ",".join(root_commits))
     if final and git_output("status", "--porcelain").strip():
         findings.append("working_tree:not_clean")
 
@@ -122,6 +129,7 @@ def audit(final: bool) -> dict[str, object]:
         "status": "ok" if not findings else "failed",
         "tracked_files": len(names),
         "reachable_commits": reachable_commits,
+        "public_roots": root_commits,
         "findings": findings,
     }
 

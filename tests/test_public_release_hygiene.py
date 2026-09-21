@@ -12,6 +12,7 @@ FORBIDDEN = (
     "项目" + "经验库",
     "Truth" + "Net",
     "mail." + "ustc.edu.cn",
+    "seminar" + " routing experiment",
 )
 
 
