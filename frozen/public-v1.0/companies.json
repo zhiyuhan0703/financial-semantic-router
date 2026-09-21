@@ -1,0 +1,45 @@
+{
+  "dataset_id": "financial-router-public-v1.0",
+  "companies": [
+    {
+      "company_id": "SH600519",
+      "exchange": "SSE",
+      "security_code": "600519",
+      "legal_name": "贵州茅台酒股份有限公司",
+      "security_short_name": "贵州茅台",
+      "aliases": [{"name": "茅台", "alias_type": "colloquial"}]
+    },
+    {
+      "company_id": "SH600036",
+      "exchange": "SSE",
+      "security_code": "600036",
+      "legal_name": "招商银行股份有限公司",
+      "security_short_name": "招商银行",
+      "aliases": [{"name": "招行", "alias_type": "colloquial"}]
+    },
+    {
+      "company_id": "SH601318",
+      "exchange": "SSE",
+      "security_code": "601318",
+      "legal_name": "中国平安保险（集团）股份有限公司",
+      "security_short_name": "中国平安",
+      "aliases": [{"name": "平安", "alias_type": "shared_ambiguous"}]
+    },
+    {
+      "company_id": "SZ000001",
+      "exchange": "SZSE",
+      "security_code": "000001",
+      "legal_name": "平安银行股份有限公司",
+      "security_short_name": "平安银行",
+      "aliases": [{"name": "平安", "alias_type": "shared_ambiguous"}]
+    },
+    {
+      "company_id": "SZ000333",
+      "exchange": "SZSE",
+      "security_code": "000333",
+      "legal_name": "美的集团股份有限公司",
+      "security_short_name": "美的集团",
+      "aliases": [{"name": "美的", "alias_type": "colloquial"}]
+    }
+  ]
+}

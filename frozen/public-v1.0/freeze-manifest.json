@@ -1,0 +1,74 @@
+{
+  "freeze_id": "financial-router-public-v1.0",
+  "frozen_at": "2026-09-21",
+  "freeze_scope": "Newly authored public synthetic routing cases",
+  "contract_version": "1.0",
+  "dev_denominator": 8,
+  "test_denominator": 24,
+  "dev_case_ids": [
+    "DEV-01",
+    "DEV-02",
+    "DEV-03",
+    "DEV-04",
+    "DEV-05",
+    "DEV-06",
+    "DEV-07",
+    "DEV-08"
+  ],
+  "test_case_ids": [
+    "TEST-01",
+    "TEST-02",
+    "TEST-03",
+    "TEST-04",
+    "TEST-05",
+    "TEST-06",
+    "TEST-07",
+    "TEST-08",
+    "TEST-09",
+    "TEST-10",
+    "TEST-11",
+    "TEST-12",
+    "TEST-13",
+    "TEST-14",
+    "TEST-15",
+    "TEST-16",
+    "TEST-17",
+    "TEST-18",
+    "TEST-19",
+    "TEST-20",
+    "TEST-21",
+    "TEST-22",
+    "TEST-23",
+    "TEST-24"
+  ],
+  "router_input_fields": [
+    "query",
+    "history",
+    "companies"
+  ],
+  "excluded_from_router": [
+    "expected",
+    "case_family",
+    "source_type"
+  ],
+  "files": [
+    {
+      "role": "cases_and_nested_gold",
+      "path": "cases.jsonl",
+      "bytes": 10054,
+      "sha256": "022BF95344C30990F203B75AE325F8A1E9135CD276A1842E0F9CDD61C199B2D7"
+    },
+    {
+      "role": "static_company_candidates",
+      "path": "companies.json",
+      "bytes": 1447,
+      "sha256": "BE3A18FAFC3FC9E6F46F172B82B9397CC427178364359E5691C38C60C825C122"
+    },
+    {
+      "role": "data_origin_declaration",
+      "path": "sources.json",
+      "bytes": 383,
+      "sha256": "0CC26AE62BFC1D8C627E3C2BB5DF3D33ED15DE41000C0D5729A07448F5D7320F"
+    }
+  ]
+}

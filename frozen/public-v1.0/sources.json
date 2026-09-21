@@ -1,0 +1,8 @@
+{
+  "dataset_id": "financial-router-public-v1.0",
+  "source_type": "public_synthetic",
+  "company_identity_basis": "Public A-share issuer names, exchange labels and security codes",
+  "authorship": "All 32 routing queries, histories, family labels and expected decisions were newly authored for this repository",
+  "external_corpus_reuse": false,
+  "internal_dataset_reuse": false
+}

@@ -1,0 +1,863 @@
+{
+  "route": "pure_rule",
+  "split": "test",
+  "repeats": 1,
+  "runs": [
+    {
+      "run_index": 1,
+      "cases": [
+        {
+          "case_id": "TEST-01",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 1.217,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-02",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.2284,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-03",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600036"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600036"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.1059,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-04",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SZ000333"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SZ000333"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.2137,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-05",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH601318"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH601318"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.1555,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-06",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SZ000001"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SZ000001"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0989,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-07",
+          "expected": {
+            "subject_action": "clarify",
+            "company_ids": [],
+            "route": [
+              "clarify"
+            ]
+          },
+          "predicted": {
+            "subject_action": "clarify",
+            "company_ids": [],
+            "route": [
+              "clarify"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.1823,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": "subject_ambiguous",
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-08",
+          "expected": {
+            "subject_action": "clarify",
+            "company_ids": [],
+            "route": [
+              "clarify"
+            ]
+          },
+          "predicted": {
+            "subject_action": "clarify",
+            "company_ids": [],
+            "route": [
+              "clarify"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0886,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": "subject_ambiguous",
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-09",
+          "expected": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "predicted": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0947,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-10",
+          "expected": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH600036"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "predicted": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH600036"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0767,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-11",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SZ000333"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SZ000333"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0736,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-12",
+          "expected": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH601318"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "predicted": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH601318"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0807,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-13",
+          "expected": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "predicted": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH601318"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "correct": false,
+          "latency_ms": 0.0734,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-14",
+          "expected": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "predicted": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0667,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-15",
+          "expected": {
+            "subject_action": "clarify",
+            "company_ids": [],
+            "route": [
+              "clarify"
+            ]
+          },
+          "predicted": {
+            "subject_action": "reuse",
+            "company_ids": [
+              "SH600519",
+              "SZ000333"
+            ],
+            "route": [
+              "equity"
+            ]
+          },
+          "correct": false,
+          "latency_ms": 0.0667,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-16",
+          "expected": {
+            "subject_action": "clarify",
+            "company_ids": [],
+            "route": [
+              "clarify"
+            ]
+          },
+          "predicted": {
+            "subject_action": "clarify",
+            "company_ids": [],
+            "route": [
+              "clarify"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0625,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": "unknown_entity",
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-17",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600519",
+              "SZ000333"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600519",
+              "SZ000333"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0819,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-18",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600036",
+              "SZ000333"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600036",
+              "SZ000333"
+            ],
+            "route": [
+              "financial"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0684,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-19",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH601318"
+            ],
+            "route": [
+              "financial",
+              "equity"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH601318"
+            ],
+            "route": [
+              "financial",
+              "equity"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0682,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-20",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SZ000333"
+            ],
+            "route": [
+              "equity",
+              "event"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SZ000333"
+            ],
+            "route": [
+              "equity",
+              "event"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0665,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-21",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600036"
+            ],
+            "route": [
+              "financial",
+              "equity",
+              "event"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600036"
+            ],
+            "route": [
+              "financial",
+              "equity",
+              "event"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.067,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-22",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "clarify"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "clarify"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.1791,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": "unsupported_business",
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-23",
+          "expected": {
+            "subject_action": "clarify",
+            "company_ids": [],
+            "route": [
+              "clarify"
+            ]
+          },
+          "predicted": {
+            "subject_action": "clarify",
+            "company_ids": [],
+            "route": [
+              "clarify"
+            ]
+          },
+          "correct": true,
+          "latency_ms": 0.0627,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": "subject_missing",
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        },
+        {
+          "case_id": "TEST-24",
+          "expected": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600519"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "predicted": {
+            "subject_action": "new_entity",
+            "company_ids": [
+              "SH600036",
+              "SH600519"
+            ],
+            "route": [
+              "event"
+            ]
+          },
+          "correct": false,
+          "latency_ms": 0.0794,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "llm_calls": 0,
+          "model": null,
+          "system_fingerprint": null,
+          "audit_reason": null,
+          "verifier_codes": [],
+          "raw_content": null,
+          "error": null
+        }
+      ],
+      "metrics": {
+        "counts": {
+          "total": 24,
+          "missing_prediction": 0
+        },
+        "subject_action": {
+          "correct": 23,
+          "total": 24,
+          "accuracy": 0.9583333333333334
+        },
+        "entity_exact": {
+          "correct": 21,
+          "total": 24,
+          "accuracy": 0.875
+        },
+        "wrong_binding": {
+          "count": 3,
+          "total": 24,
+          "rate": 0.125
+        },
+        "route_exact": {
+          "correct": 23,
+          "total": 24,
+          "accuracy": 0.9583333333333334
+        },
+        "joint_exact": {
+          "correct": 21,
+          "total": 24,
+          "accuracy": 0.875
+        },
+        "clarify": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "modules": {
+          "financial": {
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "equity": {
+            "tp": 8,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.8888888888888888,
+            "recall": 1.0,
+            "f1": 0.9411764705882353
+          },
+          "event": {
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "runtime": {
+          "p50_latency_ms": 0.08005,
+          "p95_latency_ms": 0.2284,
+          "average_input_tokens": 0.0,
+          "average_output_tokens": 0.0,
+          "average_total_tokens": 0.0,
+          "usage_missing_cases": 0,
+          "usage_observed_cases": 24,
+          "known_input_tokens": 0,
+          "known_output_tokens": 0,
+          "llm_call_rate": 0.0
+        }
+      }
+    }
+  ],
+  "freeze_id": "financial-router-public-v1.0",
+  "manifest_path": "frozen/public-v1.0/freeze-manifest.json",
+  "configuration": {
+    "model": null,
+    "thinking_enabled": null,
+    "temperature": null,
+    "timeout_seconds": null,
+    "max_retries": null,
+    "max_tokens": null
+  }
+}

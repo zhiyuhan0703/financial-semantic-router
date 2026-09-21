@@ -1,0 +1,36 @@
+# Python 缓存与构建产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# 密钥与环境变量（绝不提交）
+.env
+.env.*
+*.env
+*.env.*
+*.key
+*.pem
+secrets.*
+secrets/
+
+# Local implementation plans are not part of the public release
+docs/superpowers/
+
+# The only tracked environment file is the empty template
+!.env.example
+
+# 编辑器与系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 运行输出（实验原始结果按需另存，不默认入库）
+runs/
+*.log

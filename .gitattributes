@@ -1,0 +1,10 @@
+# 冻结数据与合同按字节保存：禁止任何行尾转换
+# 本仓库用 SHA-256 锁定数据内容（见 frozen/public-v1.0/freeze-manifest.json），
+# 若 checkout 时把 LF 改写为 CRLF，哈希校验会失败。故全局关闭文本转换。
+* -text
+
+# 二进制与派生文件
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary
